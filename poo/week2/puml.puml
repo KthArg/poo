@@ -1,0 +1,57 @@
+@startuml First
+
+class Person{
+    -String firstName
+    -int age
+    +String getFirstName()
+    +void setFirstName()
+    +int getAge()
+    +void setAge()
+}
+
+class Student {
+    -String studentId
+    -String major
+    +String getStudentId()
+    +void setStudentId()
+    +String getMajor()
+    +void setMajor()
+}
+
+class Teacher {
+    -String employeeId
+    -String subject
+    +String getEmployeeId()
+    +void setEmployeeId()
+    +String getSubject()
+    +void setSubject()
+}
+
+class Course {
+    -String courseId
+    -String courseName
+    +String getCourseId()
+    +void setCourseId()
+    +String getCourseName()
+    +void setCourseName()
+}
+
+class Department {
+    -String departmentId
+    -String departmentName
+    +String getDepartmentId()
+    +void setDepartmentId()
+    +String getDepartmentName()
+    +void setDepartmentName()
+}
+
+class University {
+    -String universityId
+    -String universityName
+    +String getUniversityId()
+    +void setUniversityId()
+    +String getUniversityName()
+    +void setUniversityName()
+}
+
+@enduml
